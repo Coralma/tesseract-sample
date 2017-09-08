@@ -15,7 +15,7 @@ import net.sourceforge.tess4j.TesseractException;
 public class OcrHello {
 
     public static void main(String[] args){
-        File imageFile = new File("D:\\projects-coral\\tesseract-sample\\images\\test4.jpg");
+        File imageFile = new File("D:\\projects-coral\\tesseract-sample\\images\\test1.jpg");
         ITesseract instance = new Tesseract();  // JNA Interface Mapping
         instance.setDatapath("D:\\dev-servers\\Tess4J");
         instance.setLanguage("coral");
